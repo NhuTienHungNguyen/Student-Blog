@@ -1,0 +1,111 @@
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+body {
+    font-family: Arial;
+    position: absolute;
+    padding: 20px;
+    background-image: url(https://www.qantas.com/content/travelinsider/en/explore/australia/tasmania/hobart/things-to-do-in-hobart-tasmania-in-one-day/_jcr_content/parsysTop/hero.img.full.medium.jpg/1603173501145.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header_pic {
+    background: white;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+img {
+    display: block;
+}
+
+.picture {
+    margin: auto;
+    width: 60%;
+    height: 60%;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+}
+
+* {box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.controller {
+    text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+}

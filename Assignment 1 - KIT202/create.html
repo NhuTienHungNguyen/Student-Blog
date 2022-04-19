@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<title>Home_Utas_Life_and_experience</title>
+        <link rel="stylesheet" href="create.css">
+	</head>
+	
+	<body>
+        <div class="navbar">
+			<a href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/index.html">Home</a>
+			<a href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/archive.html">Archive</a>
+			<a href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/login.html">Login</a>
+            <a href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/create.html">Create Post</a>
+            <a href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/about.html">About</a>
+		</div>
+
+		<div class="contents">
+            <div>
+                <h1 id="header">Create post</h1>
+                
+                <form action="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/index.html" method="post" onsubmit="return verifyTitle()">
+                    <div class="form-group">
+                        <label>Title</label><br><br>
+                        <input type="text" id="title_box" class="form-control" name="title" required/><br>
+                        <span id="message"></span>
+                    </div><br><br>
+                    
+                    <div class="form-group">
+                        <label for="content">Content</label><br>
+                        <textarea rows="10" id="text_box" class="form-control" name="content" required></textarea><br>
+                    </div><br><br>
+                    
+                    <div class="form-group">
+                        <button type="submit" class="btn_create">
+                            Create
+                        </button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+	</body>
+    <script src="create.js"></script>
+	
+</html>

@@ -1,0 +1,48 @@
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url(https://eastcoasttasmania.com/wp-content/uploads/2020/09/4-beautiful-places-to-watch-the-sunrise-east-coast-tasmania-spring-beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header_pic {
+    background: white;
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}

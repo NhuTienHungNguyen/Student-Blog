@@ -1,0 +1,68 @@
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/photos/sunrise-at-wineglass-bay-lookout-freycinet-national-park-picture-id1301331579?b=1&k=20&m=1301331579&s=170667a&w=0&h=Sp_BIG4Vkt5bu9oEvhrH0DWA_ddtbjkOW5XUcYYaQM8=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.contents{
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 55px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+#header {
+    color: green;
+}
+
+#title_box {
+    width: 70vw;
+}
+
+#text_box {
+    width: 70vw;
+}
+
+#message {
+    font-size: small;
+    color: red;
+}

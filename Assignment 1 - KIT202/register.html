@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<title>Login_Welcome_to_your_new_home</title>
+        <link rel="stylesheet" href="register.css">
+        <script src="register.js" defer></script>
+	</head>
+	
+    <body>
+        <div class="body"></div>
+        <div class="grad"></div>
+        <div class="header">
+            <div>Love<span>Tasmania</span></div>
+        </div>
+
+        <div class="register">
+            <form action="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/index.html" method="post" onsubmit="return verifyPassword()">
+                <input type="text" placeholder="Username" name="user" required><br>
+                <input type="email" placeholder="Email" name="email" required><br>
+                <input type="password" placeholder="Password" name="password" id="pswd" value="" required><br>
+                <input type="password" placeholder="Confirm password" name="confirm" id="conf" value="" required><br>
+                <span id="StrengthDisp"></span>
+                <span id="pswd_message"></span><br>
+                <input type="submit" id="submitBtn" value="Register">
+            </form>
+
+            <form>
+                <div class="signup">
+                    <p>Already have an account? <a id="signin" href="file:///Users/nhutienhungnguyen/Desktop/Assignment%201%20-%20KIT202/login.html">Sign in</a>.</p>
+                  </div>
+            </form>
+        </div>
+    </body>
+</html>
